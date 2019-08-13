@@ -30,6 +30,6 @@ attr_accessor :author, :title, :word_count
 end
 
     Israel = Book.new("ISS","Israel","550")
-  puts  Israel
+  puts  Book.all
 
   #cant get .all working "interesting"
